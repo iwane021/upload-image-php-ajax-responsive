@@ -1,0 +1,48 @@
+body {
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.container {
+	width: 800px;
+}
+
+.box {
+	padding: 20px 10px;
+	/*border: 1px solid silver;*/
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+#targetPhoto {
+	min-width: 300px;
+	height: 300px;
+	max-width: 100%;
+	color: #C0C0C0;
+	text-align:center;
+	vertical-align: middle;
+	line-height: 300px;
+	font-weight: bold;
+	background-color: #333;
+	overflow:auto;
+}
+
+#uploadFormContent{
+	padding: 35px 15px;
+}
+#uploadFormContent label{
+	font-weight: bold;
+	color: #333;
+	font-size: 18px;
+}
+.btnSubmit {
+	background-color: green;
+	padding:10px;
+	border: #3FA849 1px solid;
+	color: #FFFFFF;
+}
+.inputFile {
+	padding: 8px;
+	margin-bottom: 10px;
+	background-color: #FFFFFF;
+}
